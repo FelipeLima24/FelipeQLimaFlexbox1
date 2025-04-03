@@ -19,7 +19,7 @@ h1 {
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-    position: relative; /* Mantém os filhos posicionados dentro */
+    position: relative; 
 }
 
 .filho {
@@ -30,10 +30,10 @@ h1 {
     font-size: 20px;
     line-height: 100px;
     font-weight: bold;
-    position: absolute; /* Permite posicionamento preciso */
+    position: absolute; 
 }
 
-/* Posicionamento ajustado para proximidade correta */
+
 .cor1 {
     background-color: #ED145B;
     top: 15px;
