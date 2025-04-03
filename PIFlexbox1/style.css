@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+    position: relative; /* Mantém os filhos posicionados dentro */
+}
+
+.filho {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 100px;
+    font-weight: bold;
+    position: absolute; /* Permite posicionamento preciso */
+}
+
+/* Posicionamento ajustado para proximidade correta */
+.cor1 {
+    background-color: #ED145B;
+    top: 15px;
+    left: 15px;
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    bottom: 15px;
+    left: 13%;
+}
+
+.cor3 {
+    background-color: #EFB661;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
