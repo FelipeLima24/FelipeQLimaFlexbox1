@@ -19,7 +19,7 @@ h1 {
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-    position: relative; 
+    position: relative; /* Mantém os filhos posicionados dentro */
 }
 
 .filho {
@@ -30,7 +30,7 @@ h1 {
     font-size: 20px;
     line-height: 100px;
     font-weight: bold;
-    position: absolute; 
+    position: absolute; /* Permite posicionamento preciso */
 }
 
 
@@ -42,17 +42,16 @@ h1 {
 
 .cor2 {
     background-color: #63B1BC;
-    bottom: 15px;
-    left: 13%;
+    bottom: 10%;
+    left: 17%;
 }
 
 .cor3 {
     background-color: #EFB661;
-    top: 50%;
-    left: 7%;
+    top: 45%;
+    left: 9%;
     transform: translateY(-50%);
 }
-
 .instrucoes {
     width: 80%;
     margin: auto;
